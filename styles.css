@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+    text-align: center;
+}
+
+.topo{
+    background-color: #b0ddfc;
+    height: 280px;
+    width: 100%;
+}
+
+.logo img{
+    width: 150px;
+    margin-top: 40px;
+}
+
+.atalhos a {
+    width: calc((100%/4)-20px);
+    padding: 0 10px;
+    color: #1d1d1d;
+    font-size: 20px;
+}
+
+.banner {
+    margin-top: 55px;
+}
+
+.banner img{
+    width: 1024px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-top: 40px;
+    color: #1d1d1d;
+    margin-bottom: 5px;
+    font-size: 41px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.secao-sobre h2, .secao-corretores h2{
+    color:#1d80c1;
+}
+.secao-servicos h2, .secao-contato h2{
+    color: white;
+}
+
+.secao-sobre p, .secao-corretores p, .secao-contato p{
+    width: 1024px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.secao-servicos p{
+    color: white;
+    width: 670px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.secao-contato p{
+    margin: 40px auto;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.secao-servicos span, .secao-contato span{
+    color: #f1f172;
+}
+
+.secao-sobre span, .secao-corretores span{
+   color: #12579b;
+}
+
+.secao-sobre img, .secao-corretores img{
+    width: 450px;
+    margin: 40px;
+}
+
+.secao-servicos, .secao-contato {
+    background-color: #1d80c1;
+    padding: 50px;
+}
+
+.secao-corretores{
+    padding: 50px;
+}
+
+iframe{
+    margin-top: 40px;
+}
+
+ul{
+    color: white;
+    text-align: justify;
+    margin: auto;
+    width: 155px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.secao-contato ul{
+    text-align: center;
+    width: 300px;
+    padding: 1px 2px
+    
+}
+
+.secao-contato li{
+    list-style-type: none;
+}
+
+.secao-contato a{
+    color: #1d80c1;
+    margin: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
